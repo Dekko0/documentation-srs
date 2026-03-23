@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Regras do Sistema</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&amp;family=Open+Sans:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #ffffff;
+        }
+        .slide-container {
+            position: relative;
+            width: 1280px;
+            height: 720px;
+            overflow: hidden;
+            background-color: #ffffff;
+            font-family: 'Open Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+<div class="slide-container">
+<!-- Top Bar -->
+<div data-object="true" data-object-type="shape" style="position: absolute; left: 0; top: 0; width: 1280px; height: 10px; background-color: #0D1B2A; z-index: 1;"></div>
+<!-- Title -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 80px; top: 50px; width: 1000px; height: 50px; z-index: 10;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 36px; color: #0D1B2A;">Regras do Sistema</p>
+</div>
+<!-- Decorative Line under Title -->
+<div data-object="true" data-object-type="shape" style="position: absolute; left: 80px; top: 105px; width: 80px; height: 4px; background-color: #2E86C1; z-index: 1;"></div>
+<!-- GRID LAYOUT: 2 Rows, 2 Columns -->
+<!-- Card Width: 480px, Height: 210px (Increased height for comfort) -->
+<!-- Horizontal Gap: 40px -->
+<!-- Vertical Gap: 40px -->
+<!-- Start X: 140px -->
+<!-- Start Y: 170px -->
+<!-- === CARD 1 (Top Left) === -->
+<!-- Background -->
+<div data-object="true" data-object-type="shape" style="position: absolute; left: 140px; top: 170px; width: 480px; height: 210px; background-color: #F5F7FA; border-radius: 8px; border-left: 4px solid #2E86C1; z-index: 1;"></div>
+<!-- Badge Background -->
+<div data-object="true" data-object-type="shape" style="position: absolute; left: 160px; top: 190px; width: 60px; height: 24px; background-color: #0D1B2A; border-radius: 4px; z-index: 2;"></div>
+<!-- Badge Text -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 160px; top: 192px; width: 60px; height: 24px; z-index: 10; text-align: center;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 13px; color: #FFFFFF;">RN01</p>
+</div>
+<!-- Title -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 160px; top: 225px; width: 440px; height: 30px; z-index: 10;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 17px; color: #0D1B2A;">Sem Conflitos de Horário</p>
+</div>
+<!-- Description - Increased width slightly less than card and adjusted height -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 160px; top: 260px; width: 440px; height: 100px; z-index: 10;">
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 14px; color: #555555; line-height: 1.6;">O sistema não permite reservar a mesma sala para o mesmo horário por diferentes usuários, garantindo a exclusividade do espaço.</p>
+</div>
+<!-- === CARD 2 (Top Right) === -->
+<!-- Background -->
+<div data-object="true" data-object-type="shape" style="position: absolute; left: 660px; top: 170px; width: 480px; height: 210px; background-color: #F5F7FA; border-radius: 8px; border-left: 4px solid #2E86C1; z-index: 1;"></div>
+<!-- Badge Background -->
+<div data-object="true" data-object-type="shape" style="position: absolute; left: 680px; top: 190px; width: 60px; height: 24px; background-color: #0D1B2A; border-radius: 4px; z-index: 2;"></div>
+<!-- Badge Text -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 680px; top: 192px; width: 60px; height: 24px; z-index: 10; text-align: center;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 13px; color: #FFFFFF;">RN02</p>
+</div>
+<!-- Title -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 680px; top: 225px; width: 440px; height: 30px; z-index: 10;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 17px; color: #0D1B2A;">Antecedência Mínima</p>
+</div>
+<!-- Description -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 680px; top: 260px; width: 440px; height: 100px; z-index: 10;">
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 14px; color: #555555; line-height: 1.6;">Solicitações e alterações devem ser realizadas com pelo menos 24 horas de antecedência para garantir a organização da equipe.</p>
+</div>
+<!-- === CARD 3 (Bottom Left) === -->
+<!-- Background - Moved down slightly to accommodate taller top cards -->
+<div data-object="true" data-object-type="shape" style="position: absolute; left: 140px; top: 410px; width: 480px; height: 210px; background-color: #F5F7FA; border-radius: 8px; border-left: 4px solid #2E86C1; z-index: 1;"></div>
+<!-- Badge Background -->
+<div data-object="true" data-object-type="shape" style="position: absolute; left: 160px; top: 430px; width: 60px; height: 24px; background-color: #0D1B2A; border-radius: 4px; z-index: 2;"></div>
+<!-- Badge Text -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 160px; top: 432px; width: 60px; height: 24px; z-index: 10; text-align: center;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 13px; color: #FFFFFF;">RN03</p>
+</div>
+<!-- Title -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 160px; top: 465px; width: 440px; height: 30px; z-index: 10;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 17px; color: #0D1B2A;">Limite de Reservas</p>
+</div>
+<!-- Description -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 160px; top: 500px; width: 440px; height: 100px; z-index: 10;">
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 14px; color: #555555; line-height: 1.6;">Cada professor pode manter no máximo 3 reservas ativas simultaneamente para promover a rotatividade e acesso igualitário.</p>
+</div>
+<!-- === CARD 4 (Bottom Right) === -->
+<!-- Background - Moved down slightly -->
+<div data-object="true" data-object-type="shape" style="position: absolute; left: 660px; top: 410px; width: 480px; height: 210px; background-color: #F5F7FA; border-radius: 8px; border-left: 4px solid #2E86C1; z-index: 1;"></div>
+<!-- Badge Background -->
+<div data-object="true" data-object-type="shape" style="position: absolute; left: 680px; top: 430px; width: 60px; height: 24px; background-color: #0D1B2A; border-radius: 4px; z-index: 2;"></div>
+<!-- Badge Text -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 680px; top: 432px; width: 60px; height: 24px; z-index: 10; text-align: center;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 13px; color: #FFFFFF;">RN04</p>
+</div>
+<!-- Title -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 680px; top: 465px; width: 440px; height: 30px; z-index: 10;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 17px; color: #0D1B2A;">Histórico e Auditoria</p>
+</div>
+<!-- Description -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 680px; top: 500px; width: 440px; height: 100px; z-index: 10;">
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 14px; color: #555555; line-height: 1.6;">Todas as ações são registradas com data, hora e responsável para auditoria futura e rastreabilidade de operações.</p>
+</div>
+<!-- Bottom Bar -->
+<div data-object="true" data-object-type="shape" style="position: absolute; left: 0; top: 710px; width: 1280px; height: 10px; background-color: #2E86C1; z-index: 1;"></div>
+<!-- Slide Number -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 1200px; top: 670px; width: 60px; height: 40px; z-index: 10; text-align: right;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 24px; color: #CCCCCC;">09</p>
+</div>
+</div>
+</body>
+</html>
